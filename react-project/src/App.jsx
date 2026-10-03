@@ -13,6 +13,8 @@ import Backend from './pages/Backend'
 import Technologies from './pages/Technologies'
 import Products from './pages/Products'
 import NavBar from './components/NavBar'
+import Produiiits from './pages/Produiiits'
+import Produiits from './pages/Produiits' 
 function App() {
   const [isLoggedIn ,setLogged]=useState(false)
   // const [cart,setCart]=useState([])
@@ -42,6 +44,8 @@ function App() {
       // cart={cart}
       // setCart={setCart}
       />
+      <Produiits/>
+      <Produiiits/>
     </div>
   )
 }

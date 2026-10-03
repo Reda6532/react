@@ -1,11 +1,12 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { useSelector } from 'react-redux'
-import { remove } from '../../redux/actions/cartActions'
-import { empty } from '../../redux/actions/cartActions'
+import { useSelector  } from 'react-redux'
+// import { remove } from '../../redux/actions/cartActions'
+// import { empty } from '../../redux/actions/cartActions'
+import { remove, empty } from '../redux/cartSlice'       
 export default function Panier() {
     // there was {cart,setCart} above in the ()
-    const cart =useSelector(state=>state.cart)
+    const cart =useSelector(state=>state.cart.cart)
     const dispatch=useDispatch()
     const supprimerProduit=(id)=>{
         dispatch(remove(id))

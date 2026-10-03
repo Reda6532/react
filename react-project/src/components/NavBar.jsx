@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Panier from './accessories/Panier'
+import Panier from './Panier'
 // export default function NavBar({cart,setCart}) {
 export default function NavBar() {
   return (

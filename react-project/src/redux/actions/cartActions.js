@@ -1,16 +1,16 @@
-import { product } from "../../Data/produit"
+// import { product } from "../../Data/produit"
 
-export const addToCart=(product)=>({
-    type:"ADD_TO_CART",
-    payload:product,
-})
-export const remove=(id)=>({
-    type:"REMOVE",
-    payload:id
-})
-export const empty=()=>({
-    type:"EMPTY"
-})
+// export const addToCart=(product)=>({
+//     type:"ADD_TO_CART",
+//     payload:product,
+// })
+// export const remove=(id)=>({
+//     type:"REMOVE",
+//     payload:id
+// })
+// export const empty=()=>({
+//     type:"EMPTY"
+// })
 
 // the output of the function will be like this
 
